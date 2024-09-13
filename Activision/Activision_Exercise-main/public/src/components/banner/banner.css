@@ -1,0 +1,81 @@
+.hero-img {
+    position: relative;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.hero-img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.logo-buttons-container {
+    position: absolute; 
+    top: 50%; 
+    left: 25%; 
+    transform: translate(-50%, -50%); 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+}
+
+p {
+    font-size: 25px;
+    color: white;
+    line-height: 1.4;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 1200px;
+}
+
+.button-view-all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.button-register,
+.button-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    border-radius: 2rem;
+}
+
+.button-register {
+    background-color: #074A7C;
+    border: 2px solid #065E9E;
+}
+
+.button-register a,
+.button-login a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 1rem 0;
+}
+
+.button-login {
+    border: 2px solid white;
+}
